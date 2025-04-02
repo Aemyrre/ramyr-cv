@@ -549,17 +549,15 @@
   }
 
   .footprint {
-    height: 120px;
-    width: 120px;
+    display: none;
   }
 
-  .footprint-left--hover {
-    left: -24rem;
-  }
-
-  .footprint-right--hover {
-    left: auto;
-    right: -4.5rem;
+  .icon-timeline,
+  .icon-career,
+  .icon-course,
+  .icon-course-container,
+  .locate-icon {
+    transform: scale(0.8);
   }
 }
 
