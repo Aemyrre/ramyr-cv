@@ -1,0 +1,566 @@
+/***********************/
+/* BELOW 1360px */
+/***********************/
+
+@media (max-width: 85em) {
+  .hero {
+    gap: 0;
+  }
+
+  .hero-img-box {
+    margin: 5rem;
+    justify-content: flex-start;
+  }
+
+  .hero-img {
+    width: 45rem;
+  }
+}
+
+/***********************/
+/* BELOW 1280px */
+/***********************/
+
+@media (max-width: 80em) {
+  html {
+    /* 9px / 16px */
+    font-size: 56.25%;
+  }
+
+  .exp-icon--right {
+    right: -17.3rem;
+  }
+
+  .exp-icon--left {
+    left: -17.3rem;
+  }
+
+  .exp-icon--start {
+    right: -16.25rem;
+    top: -10px;
+  }
+}
+
+/***********************/
+/* BELOW 1152px */
+/***********************/
+
+@media (max-width: 72em) {
+  .exp-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .timeline-line {
+    /* grid-column: 3/4; */
+    display: none;
+  }
+
+  .exp-grid {
+    min-height: 280rem;
+  }
+
+  .exp-grid-left {
+    grid-column: 2/4;
+    justify-self: center;
+  }
+
+  .exp-grid-right {
+    grid-column: 3/5;
+    justify-self: center;
+  }
+
+  .exp--container:hover .icon-timeline {
+    transform: translateY(-10px);
+  }
+
+  .exp-icon--start {
+    top: -3rem;
+    right: 14.5rem;
+
+    transform: translate(-50%, -50%);
+  }
+
+  .exp-icon--right {
+    top: 0;
+    right: 20rem;
+
+    transform: translate(50%, -50%);
+  }
+
+  .exp-icon--left {
+    top: -100%;
+    left: 20rem;
+
+    transform: translate(-50%, 50%);
+  }
+
+  .footprint-left--hover {
+    right: 160px;
+  }
+
+  .footprint-right--hover {
+    left: -40px;
+  }
+}
+
+/***********************/
+/* BELOW 1120px */
+/***********************/
+
+@media (max-width: 70em) {
+  html {
+    /* 8px / 16px */
+    font-size: 50%;
+  }
+
+  .hero-img {
+    width: 45rem;
+  }
+
+  .hero-img-box {
+    justify-content: center;
+  }
+
+  .heading-primary {
+    font-size: 5.2rem;
+    margin-bottom: 2rem;
+  }
+
+  .hero-description {
+    font-size: 1.8rem;
+  }
+
+  .about-grid {
+    grid-template-columns: 1.25fr 1fr;
+  }
+
+  .locate-icon {
+    height: 70px;
+    width: 70px;
+  }
+
+  .icon-career,
+  .icon-course-container {
+    height: 50px;
+    width: 50px;
+  }
+
+  .exp-icon--start {
+    right: 13.1rem;
+  }
+
+  .exp-icon--right {
+    right: 19.3rem;
+  }
+
+  .exp-icon--left {
+    left: 20.7rem;
+  }
+
+  .skill-item-box {
+    min-width: 120px;
+  }
+
+  .skill-icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .testimonial-bg-img-left {
+    left: -55rem;
+  }
+
+  .testimonial-bg-img-right {
+    right: -55rem;
+  }
+}
+
+/***********************/
+/* BELOW 960px (laptop) */
+/***********************/
+
+@media (max-width: 60em) {
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+
+  .header-logo,
+  .header-logo-link {
+    height: 45px;
+    width: 45px;
+  }
+
+  .hero {
+    grid-template-columns: 40rem 1fr;
+  }
+
+  .hero-img {
+    width: 30rem;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    row-gap: 2.4rem !important;
+  }
+
+  .about-img-box {
+    width: 50%;
+    align-self: center;
+    justify-self: center;
+    grid-row: 1/2;
+  }
+
+  .about-text-box {
+    padding: 0 3.2rem;
+  }
+
+  .grid {
+    column-gap: 4.8rem;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .project-card:first-child {
+    margin: 0;
+    justify-self: end;
+  }
+
+  .project-card:nth-child(2) {
+    margin: 0;
+    justify-self: start;
+  }
+
+  .project-card:nth-child(3) {
+    grid-row: 2/-1;
+    grid-column: 1/-1;
+  }
+
+  .footprint {
+    height: 150px;
+    width: 150px;
+  }
+
+  .tech-grid {
+    row-gap: 3.2rem;
+    column-gap: 4.8rem;
+  }
+
+  .testimonial-bg-img-left {
+    left: -50rem;
+  }
+
+  .testimonial-bg-img-right {
+    right: -50rem;
+  }
+
+  .cta {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 0;
+    row-gap: 6.4rem;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cta-text-box {
+    grid-row: 1/2;
+    width: 90%;
+
+    justify-self: center;
+  }
+
+  .cta-form {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 3fr 1fr;
+
+    row-gap: 0;
+  }
+
+  .cta-img-box {
+    grid-column: 1/-1;
+    grid-row: 2/-1;
+
+    align-self: start;
+  }
+
+  .cta-alt-links-arrow {
+    display: none;
+  }
+
+  .cta-btn {
+    justify-self: center;
+    margin-top: 3rem;
+    margin-bottom: 7rem;
+  }
+
+  .cta-alt-link-text {
+    font-size: 2.4rem;
+    width: 25rem;
+    top: -9rem;
+    right: 50%;
+
+    transform: translateX(50%);
+  }
+
+  .footer-grid {
+    grid-template-columns: 0.5fr 1fr;
+    column-gap: 0;
+  }
+
+  .footer-links {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    column-gap: 2.4rem;
+  }
+
+  .footer-img {
+    height: 40px;
+  }
+
+  /* MOBILE NAVIGATION */
+
+  .btn-mobile-nav {
+    display: block;
+    z-index: 9999;
+  }
+
+  .main-nav {
+    background-color: rgba(255, 255, 255, 0.97);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+
+    transform: translateX(100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: all 0.5s ease-in-out;
+
+    /* Hide Navigation */
+
+    /* Allows no transition / Incorrect way to hide navigation */
+    /* display: none;*/
+
+    /* Step 1: Hide visually */
+    opacity: 0;
+
+    /* Step 2: Make nav unaccessible to mouse and keyboard */
+    pointer-events: none;
+
+    /* Step 3: Hide from screen readers */
+    visibility: hidden;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+
+    z-index: 9999;
+  }
+
+  .nav-open .icon-mobile-nav[name="close-button"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-button"] {
+    display: none;
+  }
+
+  .main-nav-links {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 3rem;
+  }
+}
+
+/***********************/
+/* BELOW 768px (Laptop) */
+/***********************/
+
+@media (max-width: 48em) {
+  .cta-subheading {
+    font-size: 3rem;
+  }
+
+  .section-hero {
+    padding: 9.6rem 0;
+  }
+
+  .hero-textbox {
+    text-align: center;
+  }
+
+  .hero-img-box {
+    display: none;
+  }
+
+  .hero-btn-container {
+    justify-content: space-evenly;
+  }
+
+  .social-links {
+    justify-content: center;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .about-text-box {
+    padding: 0;
+  }
+
+  .tech-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonial-bg-img-container {
+    display: none;
+  }
+
+  .testimonial-carousel-container {
+    max-width: 100%;
+  }
+
+  .cta-text-box {
+    width: 90%;
+  }
+}
+
+/***********************/
+/* BELOW 640px (Phones) */
+/***********************/
+
+@media (max-width: 40em) {
+  .heading-secondary {
+    font-size: 2.8rem;
+  }
+
+  .heading-tertiary,
+  .timeline-timeframe,
+  .cta-subheading {
+    font-size: 2.4rem;
+  }
+
+  .subheading,
+  .btn {
+    font-size: 1.8rem;
+  }
+
+  .hero-description {
+    font-size: 1.4rem;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .project-card {
+    width: 100%;
+  }
+
+  .project-card:first-child,
+  .project-card:nth-child(2),
+  .project-card:last-child {
+    justify-self: center;
+  }
+
+  .project-card:nth-child(2) {
+    grid-row: 2/3;
+  }
+
+  .project-card:last-child {
+    grid-row: 3/-1;
+  }
+
+  .timeline-heading {
+    font-size: 2rem;
+  }
+
+  .cta-text-box {
+    width: 95%;
+
+    padding: 4.8rem 3.2rem 2.4rem;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 20px;
+
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-links {
+    grid-column: 2/-1;
+    grid-row: 1/-1;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(7, 1fr);
+
+    justify-items: center;
+  }
+
+  .footer-home-link {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  .copyright {
+    grid-column: 1/2;
+  }
+}
+
+/***********************/
+/* BELOW 400px (Small Phones) */
+/***********************/
+
+@media (max-width: 26em) {
+  html {
+    /* 6px / 16px */
+    font-size: 37.5%;
+  }
+
+  .exp-grid-left,
+  .exp-grid-right {
+    grid-column: 1/-1;
+    justify-self: center;
+  }
+
+  .footprint {
+    height: 120px;
+    width: 120px;
+  }
+
+  .footprint-left--hover {
+    left: -24rem;
+  }
+
+  .footprint-right--hover {
+    left: auto;
+    right: -4.5rem;
+  }
+}
+
+/* - Font Syze System (px)
+        10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+        - SPACING SYSTEM (px)
+        2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */
