@@ -308,11 +308,11 @@
       rgba(165, 165, 141, 0.25),
       rgba(165, 165, 141, 0.25)
     ),
-    url("../img/to-do-app-screenshot.png");
+    url("../img/to-do-app-screenshot.webp");
 }
 
 .project-to-do-app:hover {
-  background-image: url("../img/to-do-app-screenshot.png");
+  background-image: url("../img/to-do-app-screenshot.webp");
 }
 
 .project-text-box {
