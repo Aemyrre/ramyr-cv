@@ -538,6 +538,10 @@
     font-size: 37.5%;
   }
 
+  .exp-icon--start {
+    right: 10.75rem;
+  }
+
   .exp-grid-left,
   .exp-grid-right {
     grid-column: 1/-1;
