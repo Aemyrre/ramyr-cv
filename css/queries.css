@@ -165,14 +165,6 @@
     width: 60px;
     height: 60px;
   }
-
-  .testimonial-bg-img-left {
-    left: -55rem;
-  }
-
-  .testimonial-bg-img-right {
-    right: -55rem;
-  }
 }
 
 /***********************/
@@ -251,11 +243,11 @@
   }
 
   .testimonial-bg-img-left {
-    left: -50rem;
+    left: -20rem;
   }
 
   .testimonial-bg-img-right {
-    right: -50rem;
+    right: -20rem;
   }
 
   .cta {
