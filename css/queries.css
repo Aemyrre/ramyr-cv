@@ -530,6 +530,15 @@
     font-size: 37.5%;
   }
 
+  .skill-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .skill-item-box {
+    min-width: 100px;
+  }
+
   .exp-icon--start {
     right: 10.75rem;
   }
